@@ -1,4 +1,4 @@
-# palmyr-ai
+# Palmyr
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-palmyr-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://palmyr.ai/
+Palmyr provides infrastructure for autonomous AI agents, offering real‑world access to services such as phone calls, email, domain registration, and social media posting on platforms like X and TikTok. All interactions are paid per call in USDC via the x402 protocol, eliminating the need for API keys or traditional sign‑ups. The platform supplies a CLI, a comprehensive REST API, and a skill.md file that agents can read to understand available capabilities, enabling seamless integration of AI agents with external services.
+
+**Areas:** AI · Infrastructure · AutonomousAgents · Payments · USDC
+
+## Palmyr on APIs.io
+
+Everything profiled for Palmyr is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/palmyr-ai/](https://apis.io/providers/palmyr-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Palmyr Cards API](https://apis.io/apis/palmyr-ai/palmyr-ai-cards-api/) — The cards API from Palmyr — 2 operation(s) for cards.
+- [Palmyr Communications API](https://apis.io/apis/palmyr-ai/palmyr-ai-communications-api/) — The communications API from Palmyr — 14 operation(s) for communications.
+- [Palmyr Compute API](https://apis.io/apis/palmyr-ai/palmyr-ai-compute-api/) — The Compute API from Palmyr — 5 operation(s) for compute.
+- [Palmyr Domains API](https://apis.io/apis/palmyr-ai/palmyr-ai-domains-api/) — The Domains API from Palmyr — 4 operation(s) for domains.
+- [Palmyr Email API](https://apis.io/apis/palmyr-ai/palmyr-ai-email-api/) — The Email API from Palmyr — 1 operation(s) for email.
+- [Palmyr Free API](https://apis.io/apis/palmyr-ai/palmyr-ai-free-api/) — The free API from Palmyr — 5 operation(s) for free.
+- [Palmyr Orchestration API](https://apis.io/apis/palmyr-ai/palmyr-ai-orchestration-api/) — The orchestration API from Palmyr — 1 operation(s) for orchestration.
+- [Palmyr Phone API](https://apis.io/apis/palmyr-ai/palmyr-ai-phone-api/) — The Phone API from Palmyr — 1 operation(s) for phone.
+- [Palmyr Social API](https://apis.io/apis/palmyr-ai/palmyr-ai-social-api/) — The Social API from Palmyr — 15 operation(s) for social.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Palmyr Agentic Access](https://apis.io/agentic-access/palmyr-ai/palmyr-ai-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Palmyr API Rules](https://apis.io/rules/palmyr-ai/palmyr-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Palmyr Authentication](https://apis.io/security/palmyr-ai/palmyr-ai-authentication/)
+- [Palmyr Domain Security](https://apis.io/security/palmyr-ai/palmyr-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Palmyr Plans Pricing](https://apis.io/plans/palmyr-ai/palmyr-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://palmyr.ai/)
+- [Documentation](https://docs.palmyr.ai/introduction)
+- [Getting started](https://docs.palmyr.ai/quickstart)
+- [API reference](https://docs.palmyr.ai/reference/cli)
+- [Pricing](https://docs.palmyr.ai/pricing)
+- [Privacy policy](https://docs.palmyr.ai/security/privacy)
+- [GitHub](https://github.com/0xArtex/Palmyr)
+
+## API Evangelist rating
+
+**Kin Score 46.0** — developing · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 41.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 49.5 |
+
+**Agent readiness 31.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/palmyr-ai/](https://apis.io/providers/palmyr-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Palmyr: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/palmyr-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
